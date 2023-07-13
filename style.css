@@ -241,7 +241,7 @@ footer .credit a {
 /* Tablet */
 @media (max-width: 750px) {
 	.navbar-nav {
-		font-size: 5vw;
+		display: none;
 	}
 	.head {
 		display: block;
