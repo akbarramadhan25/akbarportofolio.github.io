@@ -103,6 +103,9 @@ nav ul li a:active {
 	margin-left: 9rem;
 	margin-top: 5rem;
 }
+#home #row-home img {
+	width: 300px;
+}
 
 
 #home #row-home h1 {
@@ -347,9 +350,12 @@ footer .credit a {
 		margin-left: 40px;
 
 	}
+	#about #row-about #col-text-about h4 {
+		padding: 2rem;
+	}
 	#about #row-about #col-text-about p {
 		font-size: 25px;
-		padding: 2rem;
+		padding: 2.8rem;
 	}
 }
 
