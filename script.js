@@ -1,13 +1,8 @@
 
-  // Mendapatkan referensi ke elemen formulir
-  var contactForm = document.getElementById('contact-form');
+const toggle = document.querySelector('.menu-toggle input');
+const ulNavbar = document.querySelector('nav ul');
 
-  // Menambahkan event listener untuk menangani saat formulir dikirim
-  contactForm.addEventListener('submit', function(event) {
-    // Mencegah perilaku default pengiriman formulir
-    event.preventDefault();
+toggle.addEventListener('click', function() {
+    ulNavbar.classList.toggle('slide');
+});
 
-    // Menampilkan pesan terima kasih
-    alert('Terima kasih, pesan Anda telah terkirim ke Akbar');
-  });
-</
