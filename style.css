@@ -136,14 +136,14 @@ nav ul li a:active {
 	padding: 2rem;
 }
 #about #row-about #col-text-about p {
-	
-	font-size: 20px;
+	height: 500px;
+	font-size: 10px;
 }
 
 /* Project */
 #project h2,
 #certificate h2 {
-	font-size: 30px;
+	font-size: 24px;
 }
 #project .row-project .menu-card-image {
 	margin-bottom: 1rem;
@@ -261,6 +261,7 @@ footer .credit a {
 	nav ul {
 		width: 50%;
 	}
+
 	#home #row-home img {
 		width: 400px;
 	}
@@ -315,25 +316,30 @@ footer .credit a {
 	}
 	.menu-toggle {
 		display: flex;
-		margin-right: 30px;
 	}
 
 	nav ul.slide {
 		opacity: 1;		
 	}
 	#home #row-home {
-		margin-top: 5rem;
+		margin-top: 3rem;
 		margin-left: 80px;
 	}
 	#home #row-home h1,
 	#home #row-home span {
-		font-size: 60px;
+		font-size: 40px;
 	}
 	#home #row-home img {
-		width: 300px;
+		width: 100px;
+	}
+	#about {
+		padding-top: 4rem;
 	}
 	#about h1 {
-		font-size: 40px;
+		font-size: 25px;
+	}
+	#about #row-about #col-text-about h4 {
+		font-size: 20px;
 	}
 	#about #row-about #col-img-about img {
 		width: 80%;
