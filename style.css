@@ -151,6 +151,10 @@ nav ul li a:active {
 #project,
 #certificate {
 	margin-bottom: 4.5rem;
+	padding: 6rem;
+}
+#project .row-project .project-image img {
+	width: 400px;
 }
 #project h2,
 #certificate h2 {
@@ -165,7 +169,11 @@ nav ul li a:active {
 	gap: 20px;
 	text-align: center;
 }
-/* Contact */
+/* Certificate */
+
+#certificate #row-certificate .certificate-image img {
+	width: 400px;
+}
 #contact form {
 	padding: 5rem 2rem;
 }
@@ -250,36 +258,24 @@ footer .credit a {
 /*  Tablet */
 
 @media screen and ( max-width: 768px ) {
-	html {
-		font-size: 80%;
-	}
-
 	nav ul {
 		width: 50%;
 	}
-	/*#home #row-home {
-		padding-left: 25px;
-	}
-	#home #row-home h1,
-	#home #row-home span {
-		font-size: 60px;
-	}
-
-	#about #row-about #col-img-about {
-		padding-left: 5rem;
+	#home #row-home img {
+		width: 400px;
 	}
 	#about #row-about #col-img-about img {
-		width: 400px;
-		height: 300px;
-		object-fit: cover;
-		object-position: 0 -90px;
+		margin-left: 7rem;
 	}
-	#about #row-about p {
-		font-size: 20px;
+	#about #row-about #col-text-about {
+		padding-right: 3rem;
 	}
 	#project .row-project .project-image img {
-		width: 200px;
-	}*/
+		width: 500px;
+	}
+	#certificate #row-certificate .certifcate-image img {
+		width: 500px;
+	}
 	#project .row-project,
 	#certificate .row-certificate {
 		flex-wrap: wrap;
@@ -325,19 +321,16 @@ footer .credit a {
 	nav ul.slide {
 		opacity: 1;		
 	}
-	body #home {
-		margin-bottom: 90px;
-	}
 	#home #row-home {
 		margin-top: 5rem;
 		margin-left: 80px;
 	}
 	#home #row-home h1,
 	#home #row-home span {
-		font-size: 70px;
+		font-size: 60px;
 	}
 	#home #row-home img {
-		width: 400px;
+		width: 300px;
 	}
 	#about h1 {
 		font-size: 40px;
@@ -350,11 +343,18 @@ footer .credit a {
 		margin-left: 40px;
 
 	}
+	#project .row-project .project-image img {
+		width: 300px;
+	}
+	#certificate #row-certificate .certificate-image img {
+		width: 300px;
+	}
+	#certificate 
 	#about #row-about #col-text-about h4 {
 		padding: 2rem;
 	}
 	#about #row-about #col-text-about p {
-		font-size: 25px;
+		font-size: 15px;
 		padding: 2.8rem;
 	}
 }
