@@ -239,6 +239,7 @@ footer .credit a {
 
 
 
+
 /*  Laptop */
 
 /*@media screen and ( max-width: 968px ) {
@@ -308,7 +309,7 @@ footer .credit a {
 		transform: translateX(100%);
 		transition: all 1s;
 		opacity: 0;
-		margin-right: 47rem;
+		margin-right: 35rem;
 		margin-top: 50px;
 	}
 	nav ul.active {
@@ -323,17 +324,20 @@ footer .credit a {
 	}
 	#home #row-home {
 		margin-top: 3rem;
-		margin-left: 80px;
+		margin-left: 60px;
 	}
-	#home #row-home h1,
-	#home #row-home span {
-		font-size: 40px;
+	#home #row-home h1 {
+		font-size: 45px;
+	}
+	#home #row-home h6 {
+		font-size: 25px;
 	}
 	#home #row-home img {
-		width: 100px;
+		width: 300px;
 	}
 	#about {
 		padding-top: 4rem;
+		height: 65vh;
 	}
 	#about h1 {
 		font-size: 25px;
@@ -359,9 +363,11 @@ footer .credit a {
 	#about #row-about #col-text-about h4 {
 		padding: 2rem;
 	}
+	#about #row-about #col-text-about {
+		padding: 2.8rem;
+	}
 	#about #row-about #col-text-about p {
 		font-size: 15px;
-		padding: 2.8rem;
 	}
 }
 
