@@ -195,6 +195,16 @@ nav ul li a:active {
 #contact form .input-group .textarea {
 	height: 80px;
 }
+#contact form button {
+	margin-left: 7rem;
+	margin-top: 3rem;
+	display: inline-block;
+	padding: 1rem 1.8rem;
+	font-size: 1.7rem;
+	color: black;
+	background-color: #00ffff;
+	cursor: pointer;
+}
 /* Footer */
 footer {
 	background-color: #00ffff;
@@ -228,6 +238,7 @@ footer .credit a {
 	color: black;
 	font-weight: 700;
 }
+
 
 
 
@@ -311,6 +322,7 @@ footer .credit a {
 		opacity: 0;
 		margin-right: 35rem;
 		margin-top: 50px;
+		padding: 2rem;
 	}
 	nav ul.active {
 		right: 0;
@@ -323,8 +335,8 @@ footer .credit a {
 		opacity: 1;		
 	}
 	#home #row-home {
-		margin-top: 3rem;
-		margin-left: 60px;
+		margin-top: 2rem;
+		margin-left: 30px;
 	}
 	#home #row-home h1 {
 		font-size: 45px;
@@ -333,11 +345,11 @@ footer .credit a {
 		font-size: 25px;
 	}
 	#home #row-home img {
-		width: 300px;
+		width: 280px;
 	}
 	#about {
 		padding-top: 4rem;
-		height: 65vh;
+		height: 80vh;
 	}
 	#about h1 {
 		font-size: 25px;
@@ -356,6 +368,9 @@ footer .credit a {
 	#project .row-project .project-image img {
 		width: 300px;
 	}
+	#project .row-project .project-image h3 {
+		font-size: 20px;
+	}
 	#certificate #row-certificate .certificate-image img {
 		width: 300px;
 	}
@@ -363,7 +378,12 @@ footer .credit a {
 	#about #row-about #col-text-about h4 {
 		padding: 2rem;
 	}
+	#contact form button {
+		margin-left: 3rem;
+		padding: 0.5rem 1rem;
+	}
 	#about #row-about #col-text-about {
+		margin-top: 1rem;
 		padding: 2.8rem;
 	}
 	#about #row-about #col-text-about p {
