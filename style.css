@@ -320,6 +320,7 @@ footer .credit a {
 		transform: translateX(100%);
 		transition: all 1s;
 		opacity: 0;
+		margin-right: 29rem;
 		margin-top: 50px;
 		padding: 2rem;
 	}
