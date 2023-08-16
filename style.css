@@ -195,12 +195,12 @@ nav ul li a:active {
 	height: 80px;
 }
 #contact form button {
-	margin-left: 6rem;
+	margin-left: 4rem;
 	margin-top: 3rem;
 	display: inline-block;
 	padding: 0.5rem 1rem;
 	font-size: 1.7rem;
-	color: black;
+	color: white;
 	background-color: #00ffff;
 	cursor: pointer;
 }
@@ -319,7 +319,7 @@ footer .credit a {
 		transform: translateX(100%);
 		transition: all 1s;
 		opacity: 0;
-		margin-right: 35rem;
+		margin-right: 560px;
 		margin-top: 50px;
 		padding: 2rem;
 	}
@@ -337,17 +337,17 @@ footer .credit a {
 		opacity: 1;		
 	}
 	#home #row-home {
-		margin-top: 4rem;
-		margin-left: 75px;
+		margin-top: 2rem;
+		margin-left: 40px;
 	}
 	#home #row-home h1 {
-		font-size: 50px;
+		font-size: 45px;
 	}
 	#home #row-home h6 {
 		font-size: 25px;
 	}
 	#home #row-home img {
-		width: 380px;
+		width: 280px;
 	}
 	#about {
 		padding-top: 4rem;
