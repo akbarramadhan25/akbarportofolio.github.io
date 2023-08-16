@@ -116,7 +116,7 @@ nav ul li a:active {
 }
 /* About */
 #about {
-	margin-bottom: 2.5rem;
+	margin-bottom: 2rem;
 }
 #about #row-about {
 	display: flex;
@@ -137,7 +137,7 @@ nav ul li a:active {
 }
 #about #row-about #col-text-about p {
 	height: 500px;
-	font-size: 10px;
+	font-size: 20px;
 }
 
 /* Project */
