@@ -319,7 +319,7 @@ footer .credit a {
 		transform: translateX(100%);
 		transition: all 1s;
 		opacity: 0;
-		margin-right: 560px;
+		margin-right: 200px;
 		margin-top: 50px;
 		padding: 2rem;
 	}
@@ -338,7 +338,7 @@ footer .credit a {
 	}
 	#home #row-home {
 		margin-top: 2rem;
-		margin-left: 40px;
+		margin-left: 35px;
 	}
 	#home #row-home h1 {
 		font-size: 45px;
@@ -347,7 +347,7 @@ footer .credit a {
 		font-size: 25px;
 	}
 	#home #row-home img {
-		width: 280px;
+		width: 200px;
 	}
 	#about {
 		padding-top: 4rem;
