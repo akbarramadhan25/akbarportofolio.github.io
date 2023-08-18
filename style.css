@@ -303,7 +303,7 @@ footer .credit a {
 	nav ul {
 		display: flex;
 		position: absolute;
-		right: 580px;
+		right: 180px;
 		top: 0;
 		width: 100%;
 		height: 20vh;
@@ -333,16 +333,16 @@ footer .credit a {
 	}
 	#home #row-home {
 		margin-top: 2rem;
-		margin-left: 120px;
+		margin-left: 80px;
 	}
 	#home #row-home h1 {
-		font-size: 50px;
+		font-size: 40px;
 	}
 	#home #row-home h6 {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	#home #row-home img {
-		width: 300px;
+		width: 200px;
 	}
 	#about {
 		padding-top: 4rem;
